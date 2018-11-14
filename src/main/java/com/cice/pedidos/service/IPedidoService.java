@@ -11,7 +11,7 @@ public interface IPedidoService {
 
     public void pagarPedido(Long idPedido);
 
-    public void getAllPedidosByUser(String idUsuario);
+    public String getAllPedidosByUser(String idUsuario);
 
 
 
